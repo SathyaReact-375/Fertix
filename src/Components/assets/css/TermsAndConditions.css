@@ -1,0 +1,110 @@
+.terms-container {
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.terms-content {
+  max-width: 900px;
+  width: 100%;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  
+}
+
+.terms-title {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.terms-subtitle {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: 20px;
+  color: black;
+  margin: 30px 0 15px 0;
+}
+
+.terms-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .terms-content {
+    padding: 35px;
+  }
+  
+  .terms-title {
+    font-size: 32px;
+  }
+  
+  .terms-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .terms-container {
+    padding: 30px 15px;
+  }
+  
+  .terms-content {
+    padding: 30px;
+  }
+  
+  .terms-title {
+    font-size: 28px;
+  }
+  
+  .terms-subtitle {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+  }
+  
+  .terms-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-content {
+    padding: 25px 20px;
+  }
+  
+  .terms-title {
+    font-size: 24px;
+  }
+  
+  .terms-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 16px;
+    margin: 25px 0 12px 0;
+  }
+  
+  .terms-text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}

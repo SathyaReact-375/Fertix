@@ -1,0 +1,451 @@
+[
+  {
+    "category": "Top Selling Products",
+    "products": [
+      {
+        "unique_id": "TP001",
+        "name": "Tomato Seeds",
+        "price": 80.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/topselling/top_selling_one.png"
+      },
+      {
+        "unique_id": "TP002",
+        "name": "Pomegranate Seeds",
+        "price": 70.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/topselling/top_selling_two.jpg"
+      },
+      {
+        "unique_id": "TP003",
+        "name": "Papaya Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/topselling/top_selling_three.jpg"
+      },
+      {
+        "unique_id": "TP004",
+        "name": "Sunflower Seeds",
+        "price": 69.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/topselling/top_selling_four.jpg"
+      }
+    ]
+  },
+  {
+    "category": "Seeds",
+    "products": [
+      {
+        "unique_id": "SD001",
+        "name": "Wheat maize Seeds",
+        "price": 70.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/seed/Seed_one.png"
+      },
+      {
+        "unique_id": "SD002",
+        "name": "Sweet Corn Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/seed/Seed_two.png"
+      },
+      {
+        "unique_id": "SD003",
+        "name": "Sprout Seeds",
+        "price": 69.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/seed/Seed_three.png"
+      },
+      {
+        "unique_id": "SD004",
+        "name": "Pumpkin Seeds",
+        "price": 70.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/seed/Seed_four.png"
+      },
+      {
+        "unique_id": "SD005",
+        "name": "Coffee Beans",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/seed/Seed_five.png"
+      },
+      {
+        "unique_id": "SD006",
+        "name": "Sunflower Seeds",
+        "price": 69.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/seed/Seed_seven.png"
+      }
+    ]
+  },
+  {
+    "category": "Fertilizers",
+    "products": [
+      {
+        "unique_id": "FT001",
+        "name": "Cow Dung Fertilizer",
+        "price": 400.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_one.png"
+      },
+      {
+        "unique_id": "FT002",
+        "name": "Organic Potash Fertilizer",
+        "price": 199.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_two.png"
+      },
+      {
+        "unique_id": "FT003",
+        "name": "Epsom Salt Fertilizer",
+        "price": 299.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_three.png"
+      },
+      {
+        "unique_id": "FT004",
+        "name": "Bone Meal Fertilizer",
+        "price": 699.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_four.png"
+      },
+      {
+        "unique_id": "FT005",
+        "name": "Liquid Bio Fertilizer",
+        "price": 399.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_five.png"
+      },
+      {
+        "unique_id": "FT006",
+        "name": "Vermi compost Fertilizer",
+        "price": 299.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_six.png"
+      },
+      {
+        "unique_id": "FT007",
+        "name": "Mustard Cake Fertilizer",
+        "price": 299.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_seven.png"
+      },
+      {
+        "unique_id": "FT008",
+        "name": "Organic Potting Soil",
+        "price": 499.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer_eight.png"
+      },
+      {
+        "unique_id": "FT009",
+        "name": "Plant Growth Fertilizer",
+        "price": 699.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fertilizer/Fertilizer-nine.png"
+      }
+    ]
+  },
+  {
+    "category": "Grow Bags",
+    "products": [
+      {
+        "unique_id": "GB001",
+        "name": "Fertix Grow bags 12*12",
+        "price": 700.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/growbags/Grow_one.png"
+      },
+      {
+        "unique_id": "GB002",
+        "name": "Fertix Grow bags 24*9",
+        "price": 500.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/growbags/Grow_two.png"
+      },
+      {
+        "unique_id": "GB003",
+        "name": "Fertix Grow bags 12*18*24",
+        "price": 700.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/growbags/Grow_three.png"
+      },
+      {
+        "unique_id": "GB004",
+        "name": "Fertix Grow bags 12*12*12",
+        "price": 1690.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/growbags/Grow_four.png"
+      },
+      {
+        "unique_id": "GB005",
+        "name": "Fertix Grow bags 9*9",
+        "price": 499.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/growbags/Grow_five.png"
+      },
+      {
+        "unique_id": "GB006",
+        "name": "Fertix Grow bags 48*24*12",
+        "price": 1490.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/growbags/Grow_six.png"
+      }
+    ]
+  },
+  {
+    "category": "Tools",
+    "products": [
+      {
+        "unique_id": "TL001",
+        "name": "Gardening Gloves",
+        "price": 490.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_one.png"
+      },
+      {
+        "unique_id": "TL002",
+        "name": "Drainage Mat for Seeds",
+        "price": 1190.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_two.png"
+      },
+      {
+        "unique_id": "TL003",
+        "name": "Multipurpose Gardening Cutter",
+        "price": 140.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_three.png"
+      },
+      {
+        "unique_id": "TL004",
+        "name": "High Pressure Garden spray",
+        "price": 350.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_four.png"
+      },
+      {
+        "unique_id": "TL005",
+        "name": "Gardening Tool Kit",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_five.png"
+      },
+      {
+        "unique_id": "TL006",
+        "name": "Thermoform pot - ?",
+        "price": 450.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools-six.png"
+      },
+      {
+        "unique_id": "TL007",
+        "name": "Creeper Net",
+        "price": 450.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_seven.png"
+      },
+      {
+        "unique_id": "TL008",
+        "name": "Stainless Steel Cutter",
+        "price": 140.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_eight.png"
+      },
+      {
+        "unique_id": "TL009",
+        "name": "Detachable Watercan",
+        "price": 399.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/tools/tools_nine.png"
+      }
+    ]
+  },
+  {
+    "category": "Fruits Seeds",
+    "products": [
+      {
+        "unique_id": "FS001",
+        "name": "Pomegranate Seeds",
+        "price": 70.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fruit/Fruit_one.png"
+      },
+      {
+        "unique_id": "FS002",
+        "name": "Hybrid Orange Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fruit/Fruit_two.png"
+      },
+      {
+        "unique_id": "FS003",
+        "name": "Papaya Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fruit/Fruit_three.png"
+      },
+      {
+        "unique_id": "FS004",
+        "name": "Avocado Seeds",
+        "price": 70.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fruit/Fruit_four.png"
+      },
+      {
+        "unique_id": "FS005",
+        "name": "Muskmelon Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fruit/Fruit_five.png"
+      },
+      {
+        "unique_id": "FS006",
+        "name": "Watermelon Seeds",
+        "price": 69.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/fruit/Fruit_six.png"
+      }
+    ]
+  },
+  {
+    "category": "Vegetable Seeds",
+    "products": [
+      {
+        "unique_id": "VS001",
+        "name": "Brinjal Hybrid Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/vegetable/Vegetable_seed_1.png"
+      },
+      {
+        "unique_id": "VS002",
+        "name": "Tomato Seeds",
+        "price": 80.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/vegetable/Vegetable_seed_2.png"
+      },
+      {
+        "unique_id": "VS003",
+        "name": "Lady Finger Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/vegetable/Vegetable_seed_3.png"
+      },
+      {
+        "unique_id": "VS004",
+        "name": "Cucumber Seeds",
+        "price": 120.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/vegetable/Vegetable_seed_4.png"
+      },
+      {
+        "unique_id": "VS005",
+        "name": "Green Peas Seeds",
+        "price": 80.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/vegetable/Vegetable_seed_5.png"
+      },
+      {
+        "unique_id": "VS006",
+        "name": "Palak Spinach",
+        "price": 80.00,
+        "discount": "-30%",
+        "rating": 4,
+        "actions": ["Add to Cart", "Buy Now"],
+        "image_path": "./images/vegetable/Vegetable_seed_6.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full page background */
+.auth-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #626F47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Auth container */
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  text-align: center;
+}
+
+/* Title */
+.auth-container h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+/* Input fields */
+.auth-input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: white;
+  background: white;
+}
+
+.auth-input::placeholder {
+  color: #666;
+}
+
+/* Buttons */
+.auth-button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background: #4A593D;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-button:hover {
+  background: #3a472e;
+  transform: translateY(-2px);
+}
+
+/* Links */
+.auth-switch {
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.auth-switch a {
+  color: #D8E0BB;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.auth-switch a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Messages */
+.auth-error {
+  color: #ffdddd;
+  margin: -0.5rem 0 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.auth-success {
+  color: #ddffdd;
+  margin: -0.5rem 0 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .auth-container {
+    padding: 1.5rem;
+  }
+  
+  .auth-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth-input {
+    padding: 0.8rem;
+  }
+  
+  .auth-button {
+    padding: 0.8rem;
+  }
+}
+
+@media (max-height: 600px) {
+  .auth-page {
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow-y: auto;
+  }
+}

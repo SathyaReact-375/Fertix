@@ -1,0 +1,109 @@
+/* Top bar */
+.top-bar {
+  background-color: #626F47;
+  color: #FFCF50;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Logo and Brand */
+.brand-name {
+  color: #FFCF50;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.logo {
+  width: 50px;
+}
+
+/* Search Box */
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 5px 12px;
+}
+
+.search-bar {
+  flex: 1;
+  border: none !important;
+  outline: none;
+  padding: 8px 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  align-items:flex-start;
+  gap: 25px;
+}
+
+.nav-icon {
+  color: #FFCF50;
+  font-size: 22px;
+}
+
+.login-text {
+  color: #FFCF50;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #FFCF50;
+  padding: 10px 0;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  gap: 25px;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: bold;
+  margin: 6px 20px;
+  text-align: center;
+}
+
+/* Desktop View */
+@media (min-width: 768px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .search-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .top-bar {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
