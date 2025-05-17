@@ -28,7 +28,7 @@ function Home() {
     navigate('/seeds');
   };
   const brands = [
-    { name: 'syngenta', image: shopbybrandone },
+      { name: 'syngenta', image: shopbybrandone },
     { name: 'UPL', image: shopbybrandthree },
      { name: 'buy', image: shopbybrandseven },
     { name: 'BAYER', image: shopbybrandtwo },

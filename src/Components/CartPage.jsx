@@ -21,7 +21,7 @@ const CartPage = () => {
     }
   }, [location]);
 
-  // Recalculate subtotal dynamically
+  
   useEffect(() => {
     setSubtotal(cart.reduce((total, item) => total + item.price * item.quantity, 0));
   }, [cart]);

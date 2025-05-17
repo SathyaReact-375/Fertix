@@ -17,19 +17,19 @@
 }
 
 .product-name {
-  font-size: 1rem;
+  font-size: 16px;
   margin-bottom: 5px;
   color: #333;
 }
 
 .product-rating {
-  font-size: 0.9rem;
+  font-size: 14.4px;
   color: #ffc107;
   margin-bottom: 8px;
 }
 
 .product-price {
-  font-size: 1.1rem;
+  font-size: 17.6px;
   font-weight: bold;
   color: #28a745;
   margin-bottom: 10px;
@@ -43,7 +43,7 @@
   color: white;
   padding: 5px 8px;
   border-radius: 4px;
-  font-size: 0.8rem;
+  font-size: 12.8px;
   z-index: 1;
 }
 
